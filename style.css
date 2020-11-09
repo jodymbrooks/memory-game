@@ -1,0 +1,49 @@
+#result-heading, #notification {
+  position: absolute;
+  top: 2px;
+  background-color: white;
+  border-radius: 16px;
+  border: solid 2px darkgray;
+  padding: 4px;
+}
+
+#result-heading {
+  left: 20px;
+}
+#notification {
+  right: 20px;
+  display: none;
+}
+
+
+body {
+  background-image: url('images/diner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 416px;
+  width: 416px;
+  border: 8px solid #ea1313;
+  margin: 130px auto;
+  background-color: darkgray;
+}
+
+img {
+  margin: 2px;
+}
+
